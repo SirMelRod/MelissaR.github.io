@@ -5,43 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="C:\Users\Melissa\Documents\TechMoms\my-website\css\contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <h3>Contact Form</h3>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h3>Contact Form</h3>
+        </div>
+    </div>
 
     <div class="container">
-        <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label>First Name</label>
+        <input type="text" id="fname" placeholder="Your name..">
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label>Last Name</label>
+        <input type="text" id="lname" placeholder="Your last name..">
 
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-            </select>
+        <label>Restaurant Name</label>
+        <input type="text" id="lname" placeholder="Restaurant Name..">
+        <!--Drop down list -->
+        <label>City Location</label>
+        <select id="city" name="city">
+            <option value="Alta">Alta</option>
+            <option value="Bluffdale">Bluffdale</option>
+            <option value="Brighton">Brighton</option>
+            <option value="Copperton Township">Copperton Township</option>
+            <option value="Cottonwood Heights">Cottonwood Heights</option>
+            <option value="Draper">Draper</option>
+            <option value="Emigration Canyon Township">Emigration Canyon Township</option>
+            <option value="Herriman">Herriman</option>
+            <option value="Holladay">Holladay</option>
+            <option value="Kearns Township">Kearns Township</option>
+            <option value="Magna Township">Magna Township</option>
+            <option value="Midvale">Midvale</option>
+            <option value="Millcreek">Millcreek</option>
+            <option value="Murray">Murray</option>
+            <option value="Riverton">Riverton</option>
+            <option value="Salt Lake City">Salt Lake City</option>
+            <option value="Sandy">Sandy</option>
+            <option value="South Jordan">South Jordan</option>
+            <option value="South Salt Lake">South Salt Lake</option>
+            <option value="Taylorsville">Taylorsville</option>
+            <option value="West Jordan">West Jordan</option>
+            <option value="West Valley City">West Valley City</option>
+            <option value="White City Township">White City Township</option>
+        </select>
 
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-        </form>
+        <label>A Little Bit about the Restaurant</label>
+        <textarea id="subject" placeholder="Tell me more.." style="height:200px"></textarea>
+        <button type="button" onclick="alert('Thank you for sharing!')">Submit</button>
     </div>
+    <!--menu bar-->
     <Section>
         <div class="sidebar">
-            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\index.html"><i class="fa fa-fw fa-home"></i>
-                Home</a>
-            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\ref\restaurant-list.html"><i
-                    class="fa fa-fw fa-wrench"></i> Quick List</a>
-            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\ref\about-me.html"><i class="fa fa-fw fa-user"></i>
-                About Me</a>
-            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\ref\contact.html"><i
-                    class="fa fa-fw fa-envelope"></i> Contact</a>
+            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\index.html">Home</a>
+            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\ref\restaurant-list.html">Quick List</a>
+            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\ref\about-me.html">About Me</a>
+            <a href="C:\Users\Melissa\Documents\TechMoms\my-website\ref\contact.html">Contact</a>
         </div>
     </Section>
 </body>
